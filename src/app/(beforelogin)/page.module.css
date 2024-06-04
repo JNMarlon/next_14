@@ -17,32 +17,21 @@
     flex-direction: column;
     justify-content: center;
 }
-
-.right div {
-    margin: 48px 0;
-}
-.right div h1 {
+.right h1 {
     font-weight: bold;
     font-size: 64px;
+    margin: 48px 0;
 }
-
-.right div {
-    margin-bottom: 32px;
-}
-
-.right div h2 {
+.right h2 {
     font-weight: bold;
     font-size: 31px;
+    margin-bottom: 32px;
 }
-
-.right div {
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-.right div h3 {
+.right h3 {
     font-weight: bold;
     font-size: 17px;
-
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .signup {
