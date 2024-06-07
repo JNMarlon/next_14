@@ -2,21 +2,41 @@
 
 
 ## app router
+기존 page router를 대체하는 개념
 
-## route group
+next 13부터 app router가 추가되며 많은 기능이 새로 추가되었다 
+
+### route group
 
 실제 라우팅할 경로로 잡히지 않고 단순히 가독성을 위한 그룹핑 역할을 수행
 
-app 디렉토리 아래에서 소괄호를 이용해서 사용
+app 디렉토리 아래에서 "()"를 사용
 
-(beforelogin)
+예를 들어, 로그인 전후를 기준으로 경로를 그룹핑하고 싶은경우 아래와 같이 사용
 
+```typescript
+app 
+    ㄴ(beforelogin)
+        ㄴ login
+        ㄴ signup
+    ㄴ(afterlogin)
+        ㄴ content
+        ㄴ explore
+```
 
-## parallel route
+### parallel route
 
-같은 레벨의 
+같은 디렉토리 레벨의 page.tsx 경로에 page.tsx외에 다른 컴포넌트를 등장시킬수 있음
+app 디렉토리 아래에서 "@"를 사용
 
-## intercepting route
+```typescript
+app
+    ㄴ(beforelogin)
+        ㄴ@modal
+        ㄴlogin
+```
+
+### intercepting route
 
 parallel route와 함께 사용시, 기존 화면에서 위에 그려지게 처리할 수 있음
 
