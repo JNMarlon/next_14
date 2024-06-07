@@ -1,3 +1,3 @@
-export function index(){
-    return null
+export function index() {
+    return null;
 }
