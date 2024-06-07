@@ -1,11 +1,11 @@
-## NEXT 14 NEW Features
+# NEXT 14 NEW Features
 
 
-### app router
+## app router
 
-### route group
+## route group
 
-### parallel route
+## parallel route
 
 To learn more about Next.js, take a look at the following resources:
 
