@@ -5,7 +5,16 @@
 
 ## route group
 
+실제 라우팅할 경로로 잡히지 않고 단순히 가독성을 위한 그룹핑 역할을 수행
+
+app 디렉토리 아래에서 소괄호를 이용해서 사용
+
+(beforelogin)
+
+
 ## parallel route
+
+같은 레벨의 
 
 ## intercepting route
 
