@@ -11,6 +11,10 @@
 
 서로 주소가 다른 데, 같이 화면에 뜰 수 있게 해줌
 
+parallel route와 함께 사용시, 기존 화면에서 위에 그려지게 처리할 수 있음
+
+## Learn more
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
