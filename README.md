@@ -47,11 +47,16 @@ parallel route와 함께 사용시, 기존 화면에서 위에 그려지게 처�
 
 ## 예약어
 
-page.tsx layout.tsx template.tsx default.tsx 등의 예약어는 철자가 하나라도 틀릴 경우 동작하지 않음
+```typescript
+page.tsx layout.tsx template.tsx default.tsx 등의 예약어는 철자가 하나라도 틀릴 경우 제대로 동작하지 않음
+
+(웃기는건 일부는 제대로 동작하고 일부는 동작하지 않음. 그래서 막상 버그를 맞닥뜨리면 어느지점이 문제인지 디버깅하기가 쉽지않을 수 있음. )
 
 특히 소문자, 대문자 여부 주의할 것
 
 page.tsx를 예로 들자면, 파일명을 실수로 Page.tsx로 할 경우 이를 찾아내기가 쉽지않음 주의할것
+
+```
 
 
 
