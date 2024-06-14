@@ -6,7 +6,7 @@
 
 next 13부터 app router가 추가되며 많은 기능이 새로 추가되었다 
 
-### route group
+## route group
 
 실제 라우팅할 경로로 잡히지 않고 단순히 가독성을 위한 그룹핑 역할을 수행
 
@@ -24,7 +24,7 @@ app
         ㄴ explore
 ```
 
-### parallel route
+## parallel route
 
 같은 디렉토리 레벨의 page.tsx 경로에 page.tsx외에 다른 컴포넌트를 등장시킬수 있음
 app 디렉토리 아래에서 "@"를 사용
@@ -36,7 +36,7 @@ app
         ㄴlogin
 ```
 
-### intercepting route
+## intercepting route
 
 parallel route와 함께 사용시, 기존 화면에서 위에 그려지게 처리할 수 있음
 
@@ -45,7 +45,7 @@ parallel route와 함께 사용시, 기존 화면에서 위에 그려지게 처�
 브라우저 창에 주소를 입력해서 접근하거나, 새로고침해서 접근할 경우에는 기존 app router 동작대로, page.tsx 기반으로 라우팅됨
 
 
-### 예약어
+## 예약어
 
 page.tsx layout.tsx template.tsx default.tsx 등의 예약어는 철자가 하나라도 틀릴 경우 동작하지 않음
 
