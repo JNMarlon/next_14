@@ -45,6 +45,16 @@ parallel route와 함께 사용시, 기존 화면에서 위에 그려지게 처�
 브라우저 창에 주소를 입력해서 접근하거나, 새로고침해서 접근할 경우에는 기존 app router 동작대로, page.tsx 기반으로 라우팅됨
 
 
+### 예약어
+
+page.tsx layout.tsx template.tsx default.tsx 등의 예약어는 철자가 하나라도 틀릴 경우 동작하지 않음
+
+특히 소문자, 대문자 여부 주의할 것
+
+page.tsx를 예로 들자면, 파일명을 실수로 Page.tsx로 할 경우 이를 찾아내기가 쉽지않음 주의할것
+
+
+
 ## Learn more
 
 To learn more about Next.js, take a look at the following resources:
