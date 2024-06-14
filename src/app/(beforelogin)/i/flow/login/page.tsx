@@ -8,6 +8,6 @@ import { LoginModal } from '@/components/LoginModal';
  * @modal/(.)/flow/login/page.tsx
  *
  * */
-export default function LoginPage() {
+export default function IFlowLoginPage() {
     return <LoginModal />;
 }

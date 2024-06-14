@@ -16,6 +16,6 @@ import { LoginModal } from '@/components/LoginModal';
  *
  * i/flow/login/page.tsx 로 라우팅 됨
  * */
-export default function LoginModalPage() {
+export default function IFlowLoginInterceptPage() {
     return <LoginModal />;
 }

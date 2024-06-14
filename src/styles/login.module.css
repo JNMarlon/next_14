@@ -20,7 +20,8 @@
 }
 
 .modal {
-    background-color: rgb(var(--background-end-rgb));
+
+    background-color: white;
     position: relative;
     top: 5%;
     max-width: 80vw;
@@ -46,6 +47,7 @@
 .modalBody {
     flex: 1;
     padding: 0 80px;
+
 }
 @media all and (min-width: 687px) {
     .modal {

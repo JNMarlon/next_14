@@ -2,13 +2,15 @@
 
 import { Route } from '@/utils/route';
 import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
+import { Main } from '@/components/Main';
 
 export default function LoginPage() {
     const router = useRouter();
-    useEffect(() => {
+
+    useLayoutEffect(() => {
         router.replace(Route.IFlowLogin);
     }, []);
 
-    return null;
+    return <Main />;
 }
