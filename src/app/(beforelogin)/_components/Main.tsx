@@ -1,6 +1,6 @@
-import styles from '@/styles/page.module.css';
+import styles from '@/app/(beforelogin)/_components/main.module.css';
 import Image from 'next/image';
-import zLogo from '../../public/zlogo.png';
+import zLogo from '../../../../public/zlogo.png';
 import Link from 'next/link';
 import { Route } from '@/utils/route';
 
