@@ -1,4 +1,4 @@
-import { LoginModal } from '@/components/LoginModal';
+import { LoginModal } from '@/app/(beforelogin)/_components';
 
 /**
  * next/link 태그로 접근시 팝업 노출

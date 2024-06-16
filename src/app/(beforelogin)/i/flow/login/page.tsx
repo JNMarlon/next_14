@@ -1,4 +1,4 @@
-import { LoginModal } from '@/components/LoginModal';
+import { LoginModal } from '@/app/(beforelogin)/_components';
 
 /**
  * 브라우저 주소창으로 접근하거나, 새로고침했을 때 노출
