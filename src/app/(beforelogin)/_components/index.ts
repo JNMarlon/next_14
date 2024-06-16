@@ -10,3 +10,4 @@
  * **/
 export * from './Main';
 export * from './LoginModal';
+export * from './SignupModal';
