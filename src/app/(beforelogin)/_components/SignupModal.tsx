@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { ChangeEventHandler, FormEventHandler, useState } from 'react';
-import style from './signup_modal.module.css';
+import style from './signup-modal.module.css';
 
 export function SignupModal() {
     const [id, setId] = useState('');
