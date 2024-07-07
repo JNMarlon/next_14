@@ -65,6 +65,33 @@ page.tsx를 예로 들자면, 파일명을 실수로 Page.tsx로 할 경우 이�
 ```
 
 
+## useSelectedLayoutSegment
+```typescript
+클라이언트 컴포넌트에서만 사용가능
+
+현재 컴포넌트가 사용되고 있는 상위 디렉토리 명을 리턴
+
+location.pathname과 용례가 비슷하나, 구분자 없이 상위 디렉토리 명만 리턴한다는 점에서 다름
+
+const segment:string = useSelectedLayoutSegment()
+/**
+ * 예를 들어, 현재 컴포넌트가 import되고 있는 곳이 home일 경우
+ * home을 리턴
+ * **/ 
+
+
+route가 중첩으로 구성되어 있을 경우 useSelectedLayoutSegments를 사용해서 속한 모든 segment를 배열 형태로 가져올 수 있음
+
+const segments:string[] = useSelectedLayoutSegments()
+
+/**
+ * 예를 들어, 현재 컴포넌트가 import되고 있는 곳이 compose/tweet일 경우
+ * ['compose','tweet'] 을 리턴
+ * **/
+
+```
+
+
 
 
 ## Learn more
