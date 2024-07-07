@@ -4,7 +4,8 @@ import Image from 'next/image';
 import style from '@/app/(afterLogin)/layout.module.css';
 import ZLogo from '../../../public/zlogo.png';
 import { Route } from '@/utils/route';
-import { NavMenu } from '@/app/(afterlogin)/_components/NavMenu';
+import NavMenu from '@/app/(afterlogin)/_components/NavMenu';
+import LogoutButton from '@/app/(afterlogin)/_components/LogoutButton';
 
 type TProps = {} & TLayoutProps;
 export default function AfterloginLayout({ children }: TProps) {
@@ -22,6 +23,7 @@ export default function AfterloginLayout({ children }: TProps) {
                             <ul>
                                 <NavMenu />
                             </ul>
+                            <LogoutButton />
                             <Link href={Route.ComposeTweet} className={style.postButton}>
                                 게시하기
                             </Link>

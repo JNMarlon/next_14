@@ -12,7 +12,7 @@ enum NavSegment {
     Search = 'search',
 }
 
-export function NavMenu() {
+export default function NavMenu() {
     return (
         <>
             <NavMenuHome />
